@@ -290,6 +290,11 @@ body {
     position: absolute;
     top: 217px;
     left: 406px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in;
+}
+.video__play-btn:hover {
+    transform: scale(1.2);
 }
 .video-clip-img {
     width: 895px;
